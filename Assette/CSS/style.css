@@ -1,0 +1,95 @@
+.sos-navbar{
+    background-color:rgba(0,0,0,0.55);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px, 1px, 1px, rgba(19, 84, 224, 0.55);
+    z-index: 99;
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out border-color ease 0.3s;
+    
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: blue;
+}
+
+.oy{
+    color: #7a8cf1;
+}
+
+.pivot h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    /* background: rgb(59, 91, 235); */
+    height: 275px;
+    text-align: center;
+}
+
+.pivot {
+    margin-top: 50px;
+}
+
+.pivot span::before{
+    content: "les grands thèmes de politique";
+    animation: aaa 15s infinite;
+    color: rgb(0, 255, 255);
+}
+
+@keyframes aaa{
+    0%{
+        content: "la politique Nationale";
+    }
+
+    25%{
+        content: "la politique Etrangère";
+    }
+
+    50%{
+        content: "les Relations internationales";
+    }
+
+    75%{
+        content: "les Travaux communautaires";
+    }
+  }
+
+
+.banner{
+    background: linear-gradient( rgba(0,0,0,0.5),  rgba(0,0,0,0.5)), url(../Image/carrossel1.jpg) center center fixed no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.monparcours{
+    background-color: rgb(229, 226, 248);
+    /* height: 330px; */
+}
+
+.carre{
+    height: 180px;
+    width: 200px;
+    background: linear-gradient(rgba(170, 169, 169, 0.25), rgba(168, 166, 166, 0.25), rgba(170, 169, 169, 0.25));
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carre:hover{
+    background-color: rgb(102, 156, 228);
+    color: white;
+
+}
+
+.carre2{
+    align-items: center;
+    background-color: #7a8cf1;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.icon{
+    position: relative;
+    top: 4px;
+}
